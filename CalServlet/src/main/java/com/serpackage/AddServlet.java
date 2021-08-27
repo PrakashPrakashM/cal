@@ -17,7 +17,7 @@ public class AddServlet extends HttpServlet {
 		response.setContentType("text/html");
 		String number1 = request.getParameter("num1");
 		String number2  = request.getParameter("num2");
-		
+		System.out.println("Make Change.....,")
 		int numb1 = Integer.parseInt(number1);
 		int numb2 = Integer.parseInt(number2);
 		
